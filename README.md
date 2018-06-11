@@ -3,53 +3,40 @@
 SwitchBank eXPerience is a home project for a simple classification and implementation of switch-bank circuits.  
 Schematics and PCB layouts are designed with ExpressPCB free CAD and Logisim tool software.
 
-
-***Momentary Switch***:
-A switch in which the operable status (contact) is maintained only until the actuating force is applyed (the switch is depressed).
-
-
-- debounce
+For this experience are considered only ***momentary switch***,
+in which the operable status (contact) is maintained only while the actuating force is applyed (the switch is depressed).
 
 
+### Switch-Bank
 
-## Switch-Bank
+A switch-bank is a set of related switches (only momentary switch are considered in this eXPerience), organized as an *array* or a *matrix* (shaped as an array of array-switch elements).
+The type of relationship between switches within a bank can be listed by the following ***relationship types***:
 
-A switch-bank is a set of related switches (only momentary switch are considered in this eXPerience), organized as an array or a matrix (an array of switch arrays).
-The relation between the switches inside a bank can be:
+- ***mutually-inclusive (i)***: when more than one switch can be operable at the same time.
+- ***mutually-exclusive (x)***: when only one switch per time can be operable.
 
-- ***mutually-inclusive***: when more than one switch can be operable at the same time  
-- ***mutually-exclusive***: when only one switch per time can be operable
+The type of action of the switches within the bank determines the following ***action modes***:
 
+- ***momentary switch-bank (mo)***: A switch-bank in witch the operable status of the inside switches is maintained only while the switches are depressed.
+- ***maintained switch-bank (ma)***: A switch-bank in witch the operable status of the inside switches is maintained after releasing the switches.
+- ***alternate switch-bank (al)***: A maintained switch-bank in which the operational status is toggle between successive depress/release action on the same switches.
 
-### Action Modes
+The mix of all relationship types and action modes determines the following ***operational modes***:
 
-- ***momentary***: A switch in which the shorting bar returns from its operated position to its normal or free position when the actuating force is removed.
-- ***Maintained***: ...
-- ***Alternate***: A switch in which the operable position is maintained after the first actuation, and then disengaged with the second operation
-
-
-
-### Operational Modes
-
-- momentary (mo) mutually-inclusive (i) switch-bank (as a polyphonic keyboard)
-- alternated (al) mutually-inclusive (i) switch-bank (as a toggle-button bank)
-- momentary (mo) mutually-exclusive (x) switch-bank (as a monophonic keyboard)
-- maintained (ma) mutually-exclusive (x) switch-bank (as a monophonic keyboard with sustain)
-- alternated (al) mutually-exclusive (x) switch-bank (as a ...)
-
-ss
-
-- exclusive-selector = maintained mutually-exclusive switch-bank
-- inclusive-selector = alternated mutually-exclusive switch-bank
-
-- lighted selector
-
-
-.. image:: ./images/alternate-mutually-exclusive-switch-bank.jpg
+- ***momentary mutually-inclusive switch-bank*** (as a polyphonic keyboard)
+> ![momentary-mutually-inclusive-switch-bank.png](.github/momentary-mutually-inclusive-switch-bank.png)
+- ***alternated mutually-inclusive switch-bank*** (as a toggle-button bank)
+> ![alternated-mutually-inclusive-switch-bank.png](.github/alternated-mutually-inclusive-switch-bank.png)
+- ***momentary mutually-exclusive switch-bank*** (as a monophonic keyboard)
+> ...
+- ***maintained mutually-exclusive switch-bank*** or ***selector*** (as a monophonic keyboard with sustain)
+> ![maintained-mutually-exclusive-switch-bank.png](.github/maintained-mutually-exclusive-switch-bank.png)
+- ***alternated mutually-exclusive switch-bank***
+> ![alternated-mutually-exclusive-switch-bank.png](.github/alternated-mutually-exclusive-switch-bank.png)
 
 
 ## Changes
-See file [CHANGES](CHANGES) for the project resources change logs
+See file [CHANGES](CHANGES) for the project resources change logs.
 
 
 ## About
@@ -57,4 +44,4 @@ Author : Alessandro Fraschetti (mail: [gos95@gommagomma.net](mailto:gos95@gommag
 
 
 ## License
-This project is licensed under the [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) License
+This project is licensed under the [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) License.
