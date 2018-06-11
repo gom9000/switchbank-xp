@@ -112,29 +112,25 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(130,240)" to="(200,240)"/>
     <wire from="(130,140)" to="(200,140)"/>
     <wire from="(130,190)" to="(200,190)"/>
-    <comp lib="5" loc="(80,140)" name="Button"/>
-    <comp lib="5" loc="(410,140)" name="LED"/>
-    <comp lib="1" loc="(230,140)" name="NOT Gate"/>
-    <comp lib="5" loc="(80,90)" name="Button"/>
-    <comp lib="5" loc="(80,240)" name="Button"/>
-    <comp lib="5" loc="(410,90)" name="LED"/>
+    <comp lib="5" loc="(80,190)" name="Button"/>
+    <comp lib="1" loc="(230,90)" name="NOT Gate"/>
     <comp lib="5" loc="(410,240)" name="LED"/>
-    <comp lib="5" loc="(410,190)" name="LED"/>
+    <comp lib="5" loc="(410,140)" name="LED"/>
     <comp lib="1" loc="(230,190)" name="NOT Gate"/>
+    <comp lib="1" loc="(130,90)" name="NOT Gate"/>
+    <comp lib="5" loc="(80,90)" name="Button"/>
+    <comp lib="4" loc="(350,90)" name="J-K Flip-Flop"/>
+    <comp lib="5" loc="(410,190)" name="LED"/>
+    <comp lib="5" loc="(410,90)" name="LED"/>
+    <comp lib="4" loc="(350,240)" name="J-K Flip-Flop"/>
+    <comp lib="5" loc="(80,140)" name="Button"/>
+    <comp lib="1" loc="(130,140)" name="NOT Gate"/>
+    <comp lib="5" loc="(80,240)" name="Button"/>
     <comp lib="1" loc="(230,240)" name="NOT Gate"/>
     <comp lib="4" loc="(350,190)" name="J-K Flip-Flop"/>
+    <comp lib="1" loc="(230,140)" name="NOT Gate"/>
     <comp lib="1" loc="(130,190)" name="NOT Gate"/>
-    <comp lib="4" loc="(350,140)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(350,90)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(350,240)" name="J-K Flip-Flop"/>
-    <comp lib="1" loc="(130,140)" name="NOT Gate"/>
-    <comp lib="1" loc="(130,90)" name="NOT Gate"/>
-    <comp lib="6" loc="(235,37)" name="Text">
-      <a name="text" val="alternate mutually-inclusive switch-bank"/>
-      <a name="font" val="SansSerif bold 16"/>
-    </comp>
-    <comp lib="1" loc="(230,90)" name="NOT Gate"/>
     <comp lib="1" loc="(130,240)" name="NOT Gate"/>
-    <comp lib="5" loc="(80,190)" name="Button"/>
+    <comp lib="4" loc="(350,140)" name="J-K Flip-Flop"/>
   </circuit>
 </project>

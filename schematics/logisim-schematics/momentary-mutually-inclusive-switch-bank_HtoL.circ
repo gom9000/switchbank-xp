@@ -76,33 +76,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(270,140)" to="(330,140)"/>
     <wire from="(270,190)" to="(330,190)"/>
     <wire from="(270,240)" to="(330,240)"/>
-    <wire from="(120,190)" to="(140,190)"/>
-    <wire from="(120,240)" to="(140,240)"/>
-    <wire from="(120,90)" to="(140,90)"/>
-    <wire from="(120,140)" to="(140,140)"/>
     <wire from="(170,90)" to="(240,90)"/>
     <wire from="(170,240)" to="(240,240)"/>
     <wire from="(170,140)" to="(240,140)"/>
     <wire from="(170,190)" to="(240,190)"/>
-    <comp lib="1" loc="(270,190)" name="NOT Gate"/>
-    <comp lib="5" loc="(330,140)" name="LED"/>
-    <comp lib="5" loc="(120,140)" name="Button"/>
-    <comp lib="1" loc="(170,190)" name="NOT Gate"/>
-    <comp lib="5" loc="(330,90)" name="LED"/>
-    <comp lib="1" loc="(270,240)" name="NOT Gate"/>
-    <comp lib="5" loc="(120,90)" name="Button"/>
-    <comp lib="5" loc="(120,240)" name="Button"/>
-    <comp lib="5" loc="(330,240)" name="LED"/>
-    <comp lib="1" loc="(170,90)" name="NOT Gate"/>
-    <comp lib="5" loc="(330,190)" name="LED"/>
-    <comp lib="6" loc="(235,37)" name="Text">
-      <a name="text" val="momentary mutually-inclusive switch-bank"/>
-      <a name="font" val="SansSerif bold 16"/>
-    </comp>
-    <comp lib="1" loc="(270,90)" name="NOT Gate"/>
+    <wire from="(120,190)" to="(140,190)"/>
+    <wire from="(120,240)" to="(140,240)"/>
+    <wire from="(120,90)" to="(140,90)"/>
+    <wire from="(120,140)" to="(140,140)"/>
     <comp lib="1" loc="(170,140)" name="NOT Gate"/>
-    <comp lib="1" loc="(270,140)" name="NOT Gate"/>
+    <comp lib="5" loc="(330,190)" name="LED"/>
     <comp lib="5" loc="(120,190)" name="Button"/>
+    <comp lib="5" loc="(120,140)" name="Button"/>
+    <comp lib="5" loc="(330,140)" name="LED"/>
+    <comp lib="1" loc="(270,90)" name="NOT Gate"/>
+    <comp lib="1" loc="(270,190)" name="NOT Gate"/>
+    <comp lib="5" loc="(330,90)" name="LED"/>
+    <comp lib="5" loc="(120,90)" name="Button"/>
+    <comp lib="5" loc="(330,240)" name="LED"/>
+    <comp lib="5" loc="(120,240)" name="Button"/>
+    <comp lib="1" loc="(270,240)" name="NOT Gate"/>
     <comp lib="1" loc="(170,240)" name="NOT Gate"/>
+    <comp lib="1" loc="(270,140)" name="NOT Gate"/>
+    <comp lib="1" loc="(170,90)" name="NOT Gate"/>
+    <comp lib="1" loc="(170,190)" name="NOT Gate"/>
   </circuit>
 </project>
